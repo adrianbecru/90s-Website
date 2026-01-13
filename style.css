@@ -1,0 +1,63 @@
+.outlined {
+  border: solid;
+}
+
+body {
+  background-color: black;
+  color: lime;
+  font-family: "Comic Sans MS", "Times New Roman", cursive;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: yellow;
+}
+
+a {
+  color: cyan;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+table {
+  margin: auto;
+  border: 4px dashed lime;
+  background-color: #000033;
+}
+
+td {
+  padding: 10px;
+  border: 2px solid magenta;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+.box {
+  border: 5px dotted cyan;
+  padding: 10px;
+  margin: 10px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
